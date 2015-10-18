@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		300C1AD51BD4304D005454EA /* GDWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300C1AD31BD4304D005454EA /* GDWebViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		300C1AD61BD4304D005454EA /* GDWebViewNavigationToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300C1AD41BD4304D005454EA /* GDWebViewNavigationToolbar.swift */; settings = {ASSET_TAGS = (); }; };
+		300C1ADD1BD4359A005454EA /* GDWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300C1ADB1BD4359A005454EA /* GDWebViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		300C1ADE1BD4359A005454EA /* GDWebViewNavigationToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300C1ADC1BD4359A005454EA /* GDWebViewNavigationToolbar.swift */; settings = {ASSET_TAGS = (); }; };
 		9AF407951A3000F600CEC89A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF407941A3000F600CEC89A /* AppDelegate.swift */; };
 		9AF4079C1A3000F600CEC89A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF4079B1A3000F600CEC89A /* Images.xcassets */; };
 		9AF4079F1A3000F600CEC89A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AF4079D1A3000F600CEC89A /* LaunchScreen.xib */; };
@@ -26,8 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		300C1AD31BD4304D005454EA /* GDWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GDWebViewController.swift; path = ../../Classes/GDWebViewController/GDWebViewController.swift; sourceTree = "<group>"; };
-		300C1AD41BD4304D005454EA /* GDWebViewNavigationToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GDWebViewNavigationToolbar.swift; path = ../../Classes/GDWebViewController/GDWebViewNavigationToolbar.swift; sourceTree = "<group>"; };
+		300C1ADB1BD4359A005454EA /* GDWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GDWebViewController.swift; path = ../../Pod/Classes/GDWebViewController.swift; sourceTree = "<group>"; };
+		300C1ADC1BD4359A005454EA /* GDWebViewNavigationToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GDWebViewNavigationToolbar.swift; path = ../../Pod/Classes/GDWebViewNavigationToolbar.swift; sourceTree = "<group>"; };
 		9AF4078F1A3000F600CEC89A /* GDWebBrowserClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDWebBrowserClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF407931A3000F600CEC89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AF407941A3000F600CEC89A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -59,8 +59,8 @@
 		9ACD55831A311070009570EE /* GDWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				300C1AD31BD4304D005454EA /* GDWebViewController.swift */,
-				300C1AD41BD4304D005454EA /* GDWebViewNavigationToolbar.swift */,
+				300C1ADB1BD4359A005454EA /* GDWebViewController.swift */,
+				300C1ADC1BD4359A005454EA /* GDWebViewNavigationToolbar.swift */,
 			);
 			name = GDWebViewController;
 			path = ../../GDWebViewController;
@@ -222,8 +222,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				300C1AD61BD4304D005454EA /* GDWebViewNavigationToolbar.swift in Sources */,
-				300C1AD51BD4304D005454EA /* GDWebViewController.swift in Sources */,
+				300C1ADE1BD4359A005454EA /* GDWebViewNavigationToolbar.swift in Sources */,
+				300C1ADD1BD4359A005454EA /* GDWebViewController.swift in Sources */,
 				9AF407951A3000F600CEC89A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
