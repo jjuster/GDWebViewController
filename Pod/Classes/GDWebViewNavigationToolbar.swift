@@ -23,7 +23,7 @@ import UIKit
     func webViewNavigationToolbarStop(toolbar: GDWebViewNavigationToolbar)
 }
 
-class GDWebViewNavigationToolbar: UIView {
+public class GDWebViewNavigationToolbar: UIView {
     
     // MARK: Public Properties
     
@@ -132,7 +132,7 @@ class GDWebViewNavigationToolbar: UIView {
     
     // MARK: Public Methods
     
-    func loadDidStart() {
+    public func loadDidStart() {
         if !_showsStopRefreshControl {
             return
         }
@@ -141,7 +141,7 @@ class GDWebViewNavigationToolbar: UIView {
         _toolbar.setItems(items, animated: true)
     }
     
-    func loadDidFinish() {
+    public func loadDidFinish() {
         if !_showsStopRefreshControl {
             return
         }
@@ -174,7 +174,7 @@ class GDWebViewNavigationToolbar: UIView {
         self.delegate = delegate
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
@@ -182,7 +182,7 @@ class GDWebViewNavigationToolbar: UIView {
         super.init(frame: frame)
     }
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         
         if (_toolbar == nil) {
