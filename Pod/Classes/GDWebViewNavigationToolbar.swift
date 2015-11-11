@@ -72,7 +72,7 @@ public class GDWebViewNavigationToolbar: UIView {
         set(value) {
             _toolbarBackgroundColor = value
             if let toolbar = self.toolbar {
-                toolbar.backgroundColor = _toolbarBackgroundColor
+                toolbar.barTintColor = _toolbarBackgroundColor
             }
         }
     }
