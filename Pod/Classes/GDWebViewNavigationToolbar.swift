@@ -27,30 +27,30 @@ public class GDWebViewNavigationToolbar: UIView {
     
     // MARK: Public Properties
     
-    var toolbar: UIToolbar! {
+    public var toolbar: UIToolbar! {
         get {
             return _toolbar
         }
     }
     weak var delegate: GDWebViewNavigationToolbarDelegate?
-    var backButtonItem: UIBarButtonItem? {
+    public var backButtonItem: UIBarButtonItem? {
         get {
             return _backButtonItem
         }
     }
-    var forwardButtonItem: UIBarButtonItem? {
+    public var forwardButtonItem: UIBarButtonItem? {
         get {
             return _forwardButtonItem
         }
     }
-    var refreshButtonItem: UIBarButtonItem? {
+    public var refreshButtonItem: UIBarButtonItem? {
         get {
             return _refreshButtonItem
         }
     }
     
     /** The tint color to apply to the toolbar button items.*/
-    var toolbarTintColor: UIColor? {
+    public var toolbarTintColor: UIColor? {
         get {
             return _toolbarTintColor
         }
@@ -64,7 +64,7 @@ public class GDWebViewNavigationToolbar: UIView {
     }
     
     /** The toolbar's background color.*/
-    var toolbarBackgroundColor: UIColor? {
+    public var toolbarBackgroundColor: UIColor? {
         get {
             return _toolbarBackgroundColor
         }
@@ -78,7 +78,7 @@ public class GDWebViewNavigationToolbar: UIView {
     }
     
     /** A Boolean value that indicates whether the toolbar is translucent (true) or not (false).*/
-    var toolbarTranslucent: Bool {
+    public var toolbarTranslucent: Bool {
         get {
             return _toolbarTranslucent
         }
@@ -91,7 +91,7 @@ public class GDWebViewNavigationToolbar: UIView {
         }
     }
     
-    var showsStopRefreshControl: Bool {
+    public var showsStopRefreshControl: Bool {
         get {
             return _showsStopRefreshControl
         }
